@@ -67,7 +67,7 @@ class Separator:
         if self.output_subtype is None and output_format == "WAV":
             self.output_subtype = "PCM_16"
 
-        self.is_normalization = False
+        self.is_normalization = True
         self.is_denoise = True
 
         self.chunks = 0
