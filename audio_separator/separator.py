@@ -68,7 +68,7 @@ class Separator:
             self.output_subtype = "PCM_16"
 
         self.is_normalization = False
-        self.is_denoise = False
+        self.is_denoise = True
 
         self.chunks = 0
         self.margin = 44100
